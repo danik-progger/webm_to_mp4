@@ -4,6 +4,6 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [sveltekit()],
   optimizeDeps: {
-    exclude: ["@ffmpeg/ffmpeg", "@ffmpeg/util"],
+    exclude: ["@ffmpeg/ffmpeg"],
   },
 });

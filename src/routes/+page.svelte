@@ -77,8 +77,6 @@
 
     onMount(() => loadFFmpeg());
 
-    $: console.log(state);
-
     function downloadVideo(webmVideo: Uint8Array) {
         const a = document.createElement("a");
         a.href = URL.createObjectURL(
